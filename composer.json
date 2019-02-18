@@ -1,0 +1,19 @@
+{
+    "name": "retargeting/rest-api-client",
+    "description": "Retargeting REST API Client",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Retargeting Team",
+            "email": "info@retargeting.biz"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Retargeting\\": "lib"
+        }
+    }
+}
